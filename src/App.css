@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+button{
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-top: 15px;
+}
+button:hover{
+   background: #3a3ae8
+}
+.heading h1{
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+ p{
+  font-family: "Poppins", sans-serif;
+}
+.sports-section img{
+  transition: all 1.1s;
+}
+.sports-section img:hover {
+  transform: scale(1.1);
+
+}
+
+.pg-heading{
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.5rem;
+  margin-top: 5px;
+}
+.nav{
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight:430;
+}
+.nav:hover{
+  transition: ease-out 0.2s;
+  color:gray;
+}
