@@ -8,6 +8,7 @@ import Sports from './component/sports' ;
 import National from './component/national';
 import International from './component/International';
 import Entertainment from './component/Entertainment';
+
 function App() {
   return (
   
@@ -22,6 +23,7 @@ function App() {
         <Route exact path='/International' element={<International/>}></Route>
         <Route exact path='/Entertainment' element={<Entertainment/>}></Route>
         <Route exact path='/Sports' element={<Sports/>}></Route>
+      
       </Routes>
     </BrowserRouter>
         <Footer/>

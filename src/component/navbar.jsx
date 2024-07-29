@@ -1,17 +1,14 @@
 import React from 'react';
-import {NavLink} from "react-router-dom";
-
-const Navbar = ()=>{
-    return(
+import { NavLink } from "react-router-dom";
+const Navbar = () => {
+    return (
         <>
-
             <div className='nav-container  h-[50px] py-1 bg-stone-700'>
-            <div className='nav w-[85%] mt-[10px]'>
-             
-                <nav>
+                <div className='nav w-[85%] mt-[10px]'>
+                    <nav>
                         <ul className='flex justify-end gap-5'>
                             <li>
-                                <NavLink  exact to={"/"} className='nav '>Home</NavLink>
+                                <NavLink exact to={"/"} className='nav '>Home</NavLink>
                             </li>
                             <li>
                                 <NavLink to={"/Sports"} className='nav'>Sports</NavLink>
@@ -27,12 +24,9 @@ const Navbar = ()=>{
                             </li>
                         </ul>
                     </nav>
-                
+                </div>
             </div>
-                    
-             </div>
         </>
-        
     )
 }
 export default Navbar;
